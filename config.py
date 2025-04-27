@@ -1,0 +1,10 @@
+BATCH_SIZE = 8
+NUM_CLASSES = 2  # 1 class (สิว) + 1 background
+LEARNING_RATE = 1e-4
+EPOCHS = 100
+DEVICE = "cuda"  # or "cpu"
+DATASET_PATH = "datasets/train"
+VAL_PATH = "datasets/val"
+SAVE_MODEL_PATH = "checkpoints/ssd_cbam.pth"
+CONF_THRESHOLD = 0.5
+IOU_THRESHOLD = 0.5

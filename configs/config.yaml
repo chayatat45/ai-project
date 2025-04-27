@@ -1,0 +1,10 @@
+train_images: datasets/train/images
+train_annotations: datasets/train/annotations
+val_images: datasets/val/images
+val_annotations: datasets/val/annotations
+batch_size: 8
+epochs: 100
+lr: 0.001
+model_path: models/ssd_cbam_acne.pth
+num_classes: 2
+input_size: 512
